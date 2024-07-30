@@ -7,10 +7,10 @@ Kullanımı:
 <?php
 require_once("TcKimlikNoSorgula.php");
 
-if (TcKimlikNoSorgula::tcKimlikNo('11111111111')
-    ->ad('İsim')
-    ->soyad('Soyisim')
-    ->dogumYili('1991')
+if (TcKimlikNoSorgula::tcKimlikNo ('Geçersiz')
+    ->ad ('Batuhan')
+    ->soyad('Akpınar')
+    ->dogumYili('2008')
     ->sorgula()) {
     echo 'Doğrulandı';
 } else {
